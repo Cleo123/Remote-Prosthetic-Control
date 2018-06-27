@@ -1,0 +1,107 @@
+# Copyright (c) 2014-2015 Arduino LLC.  All right reserved.
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+# Open Bionics Chestnut
+# ---------------------------------------
+ob_chestnut.name=Chestnut
+ob_chestnut.vid.0=0x2341
+ob_chestnut.pid.0=0x804d
+ob_chestnut.vid.1=0x2341
+ob_chestnut.pid.1=0x004d
+
+ob_chestnut.upload.tool=bossac
+ob_chestnut.upload.protocol=sam-ba
+ob_chestnut.upload.maximum_size=262144
+ob_chestnut.upload.use_1200bps_touch=true
+ob_chestnut.upload.wait_for_upload_port=true
+ob_chestnut.upload.native_usb=true
+ob_chestnut.build.mcu=cortex-m0plus
+ob_chestnut.build.f_cpu=48000000L
+ob_chestnut.build.usb_product="Chestnut"
+ob_chestnut.build.usb_manufacturer="Open Bionics"
+ob_chestnut.build.board=SAMD_CHESTNUT
+ob_chestnut.build.core=arduino
+ob_chestnut.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+ob_chestnut.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+ob_chestnut.build.openocdscript=openocd_scripts/arduino_zero.cfg
+ob_chestnut.build.variant=chestnut
+ob_chestnut.build.variant_system_lib=
+ob_chestnut.build.vid=0x2341
+ob_chestnut.build.pid=0x804d
+ob_chestnut.bootloader.tool=openocd
+ob_chestnut.bootloader.file=zero/samd21_sam_ba.bin
+
+
+# Open Bionics OB1 Hand Controller
+# ---------------------------------------
+OB1_HC.name=OB1 Hand Controller
+OB1_HC.vid.0=0x2341
+OB1_HC.pid.0=0x804d
+OB1_HC.vid.1=0x2341
+OB1_HC.pid.1=0x004d
+
+OB1_HC.upload.tool=bossac
+OB1_HC.upload.protocol=sam-ba
+OB1_HC.upload.maximum_size=262144
+OB1_HC.upload.use_1200bps_touch=true
+OB1_HC.upload.wait_for_upload_port=true
+OB1_HC.upload.native_usb=true
+OB1_HC.build.mcu=cortex-m0plus
+OB1_HC.build.f_cpu=48000000L
+OB1_HC.build.usb_product="OB1 Hand Controller"
+OB1_HC.build.usb_manufacturer="Open Bionics"
+OB1_HC.build.board=SAMD_OB1_HC
+OB1_HC.build.core=arduino
+OB1_HC.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+OB1_HC.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+OB1_HC.build.openocdscript=openocd_scripts/arduino_zero.cfg
+OB1_HC.build.variant=ob1_hand_controller
+OB1_HC.build.variant_system_lib=
+OB1_HC.build.vid=0x2341
+OB1_HC.build.pid=0x804d
+OB1_HC.bootloader.tool=openocd
+OB1_HC.bootloader.file=zero/samd21_sam_ba.bin
+
+# Open Bionics OB1 EMG
+# ---------------------------------------
+OB1_EMG.name=OB1 EMG
+OB1_EMG.vid.0=0x2341
+OB1_EMG.pid.0=0x804d
+OB1_EMG.vid.1=0x2341
+OB1_EMG.pid.1=0x004d
+
+OB1_EMG.upload.tool=bossac
+OB1_EMG.upload.protocol=sam-ba
+OB1_EMG.upload.maximum_size=262144
+OB1_EMG.upload.use_1200bps_touch=true
+OB1_EMG.upload.wait_for_upload_port=true
+OB1_EMG.upload.native_usb=true
+OB1_EMG.build.mcu=cortex-m0plus
+OB1_EMG.build.f_cpu=48000000L
+OB1_EMG.build.usb_product="OB1 EMG"
+OB1_EMG.build.usb_manufacturer="Open Bionics"
+OB1_EMG.build.board=SAMD_OB1_EMG
+OB1_EMG.build.core=arduino
+OB1_EMG.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+OB1_EMG.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+OB1_EMG.build.openocdscript=openocd_scripts/arduino_zero.cfg
+OB1_EMG.build.variant=ob1_emg
+OB1_EMG.build.variant_system_lib=
+OB1_EMG.build.vid=0x2341
+OB1_EMG.build.pid=0x804d
+OB1_EMG.bootloader.tool=openocd
+OB1_EMG.bootloader.file=zero/samd21_sam_ba.bin
+

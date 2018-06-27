@@ -1,0 +1,14 @@
+openbionics-samd 1.2.0
+
+* added OB1 EMG
+* changed OB1 board to OB1 Hand Controller
+* fixed Chestnut
+
+openbionics-samd 1.1.0
+
+* added OB1 board
+* changed Chesnut/Chesntut+ to Chestnut
+
+openbionics-samd 1.0.0
+
+* added Chestnut/Chestnut+ PCB

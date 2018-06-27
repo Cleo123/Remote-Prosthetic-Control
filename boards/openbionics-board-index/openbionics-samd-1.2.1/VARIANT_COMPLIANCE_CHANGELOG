@@ -1,0 +1,19 @@
+openbionics-samd 1.2.1
+
+* fixed board IDE's from OB1 to OB1_HC & OB1_EMG
+* fixed build.board=XXXX to correct names
+
+openbionics-samd 1.2.0
+
+* added OB1 EMG
+* changed OB1 board to OB1 Hand Controller
+* fixed Chestnut
+
+openbionics-samd 1.1.0
+
+* added OB1 board
+* changed Chesnut/Chesntut+ to Chestnut
+
+openbionics-samd 1.0.0
+
+* added Chestnut/Chestnut+ PCB
