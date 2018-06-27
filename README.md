@@ -1,7 +1,7 @@
 # Remote-Prosthetic-Control
-A control system for a prosthetic hand.
+A control system for a prosthetic hand!
 
-![prosthetic-hand](https://user-images.githubusercontent.com/40610157/41992217-b20fd526-79fc-11e8-96af-96968d6931ee.jpg)
+![prosthetic-hand copy](https://user-images.githubusercontent.com/40610157/41992605-d088d9c0-79fd-11e8-9c83-03442dc3cfba.jpg)
 
 I'm working on making a better control system for a simple prosthetic hand. Right now, it is set up to control robotic fingers using arduino hooked up to servos that control each joint of the hand. 
 
