@@ -50,11 +50,7 @@
 #define NVM_SW_CALIB_DFLL48M_COARSE_VAL   (58)
 #define NVM_SW_CALIB_DFLL48M_FINE_VAL     (64)
 
-/*
- * LEDs definitions
- */
-#define BOARD_LED_PORT                    (0)
-#define BOARD_LED_PIN                     (17)
+
 
 #define BOARD_LEDRX_PORT                  (1)
 #define BOARD_LEDRX_PIN                   (3)
